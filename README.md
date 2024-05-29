@@ -58,7 +58,7 @@ Github ist eine Web-basierte Oberfläche, welche die Verwaltung von Git-Reposito
 * Pull: alle Projektänderungen werden in das lokale Projekt geladen, somit ist das lokale auf dem selben Stand wie das im Web
 * Push: Commits aus dem lokalen Projekt werden hochgeladen in das Web-Repository
 * Clone: Beim Clonen wird ein Web-Repository verknüpft heruntergeladen, und kann lokal bearbeitet und mit dem Web-Repository synchronisiert werden
-* Remote Repository / Origin: Ein Remote Repository ist ein 
+* Remote Repository / Origin: Ein Remote Repository ist ein lokales Repository, welches mit einem anderen zuammengeführt werden kann.
 * Konflikt: Konflikte sind Probleme, welche beim pushen von Commits entstehen
 
 ---
