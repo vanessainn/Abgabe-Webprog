@@ -41,7 +41,8 @@ h1 {
   box-shadow: 0 2px 4px var(--box-shadow);
   margin: 1rem;
   overflow: hidden;
-  width: 300px;
+  width: 100%;
+  max-width: 700px;
 }
 
 .card-img {
@@ -62,4 +63,10 @@ h1 {
 .card-text {
   margin: 0;
   font-size: 1.4rem;
+}
+
+@container (max-width: 540px) {
+  .card-text{
+    font-size: 1rem;
+  }
 }
